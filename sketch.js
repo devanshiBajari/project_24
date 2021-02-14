@@ -26,19 +26,19 @@ function setup() {
 
 	//Create the Bodies Here.
 	hammer1= new Hammer(100,100);
-	stone1= new  Stone(650,600,80,80);
+	stone1= new  Stone(690,600,80,80);
 	ground1= new Ground (400,650,790,20);
-	rubber1= new Rubber (500,650,35);
-	iron1= new Iron(500,650,100,80);
+	rubber1= new Rubber (500,80,35);
+	iron1= new Iron(500,600,100,80);
 	
-	sand1= new Sand (50,650,10);
-	sand2= new Sand (70,650,10);
-	sand3= new Sand (90,650,10);
-	sand4= new Sand (110,650,10);
-	sand5= new Sand (130,650,10);
-	sand6= new Sand (150,650,10);
-	sand7= new Sand (170,650,10);
-	sand8= new Sand (190,650,10);
+	sand1= new Sand (90,600,10);
+	sand2= new Sand (120,600,10);
+	sand3= new Sand (150,600,10);
+	sand4= new Sand (180,600,10);
+	sand5= new Sand (210,600,10);
+	sand6= new Sand (240,600,10);
+	sand7= new Sand (270,600,10);
+	sand8= new Sand (300,600,10);
 
 	Engine.run(engine);
   

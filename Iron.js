@@ -4,7 +4,9 @@ class Iron extends BaseClass{
     }
     display(){
         var pos=this.body.position ;
-        fill("black");
+        fill("pink");
         rect(pos.x, pos.y, this.width, this.height);
+
+        super.display();
     }
 }

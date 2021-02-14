@@ -17,10 +17,10 @@ class Hammer {
         var pos =this.body.position;
         pos.x=mouseX;
         pos.y=mouseY;
-        var angle = this.body.angle;
+        //var angle = this.body.angle;
         push();
-        translate(pos.x, pos.y);
-        rotate(angle);
+       // translate(pos.x, pos.y);
+        //rotate(angle);
         rectMode(CENTER);
         fill("brown");
         rect(pos.x, pos.y, this.width, this.height);
